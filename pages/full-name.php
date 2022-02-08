@@ -20,7 +20,7 @@
       </tr>
       <tr>
           <th>Full Name</th>
-          <td><input type="text"></td>
+          <td><input type="text" value="<?php echo isset($result)? $result:''?>"/></td>
       </tr>
       <tr>
           <th></th>

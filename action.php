@@ -2,9 +2,9 @@
 require_once 'vendor/autoload.php';
 use App\classes\FullName;
 
-echo '<pre>';
+//echo '<pre>';
 //print_r($_GET);
-print_r($_POST);
+//print_r($_POST);
 
 if (isset($_GET['pages']))
 {
@@ -17,5 +17,7 @@ if (isset($_GET['pages']))
 else if (isset($_POST['btn']))
 {
     $fullName = new FullName($_POST);
-    $fullName->getFullName();
+    $result->getFullName->getFullName();
+
+    include 'pages/full-name.php';
 }

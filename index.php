@@ -6,5 +6,5 @@ use App\classes\FullName;
 //$example = new Example();
 //$example->index();.
 
-$fullName = new FullName('BITM');
+$fullName = new FullName();
 $fullName->index();
